@@ -21,7 +21,7 @@ export type ConfigMenuItemsType = MenuItemsType & { hideSubNav?: boolean }
 const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType[] = (t, languageCode) => [
   {
     label: t('Info'),
-    href: '/info',
+    href: '/info2',
     icon: MoreIcon,
     hideSubNav: true,
     items: [],
