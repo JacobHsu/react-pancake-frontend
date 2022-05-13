@@ -1,10 +1,10 @@
-import { IfoPageLayout } from '../../views/Ifos'
-import Ifo from '../../views/Ifos/Ifo'
+import { InfoPageLayout } from 'views/Info2'
+import Overview from 'views/Info2/Overview'
 
-const CurrentIfoPage = () => {
-  return <Ifo />
+const InfoPage = () => {
+  return <Overview />
 }
 
-CurrentIfoPage.Layout = IfoPageLayout
+InfoPage.Layout = InfoPageLayout
 
-export default CurrentIfoPage
+export default InfoPage
